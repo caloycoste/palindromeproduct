@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  background-color: #efefef;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: 'flex';
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-blue-fill {
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #009dff;
+  color: #efefef;
+  border: #efefef solid 2px;
+  font-family: Poppins;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-blue-fill:hover {
+  background-color: #efefef;
+  color: #009dff;
+  border: #009dff solid 2px;
+}
